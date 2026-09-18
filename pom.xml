@@ -14,9 +14,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.12.3</app.runtime>
 		<mule.maven.plugin.version>4.10.0</mule.maven.plugin.version>
+		<muleVersion>4.12.3:4e</muleVersion>
+		<javaVersion>17</javaVersion>
+		<targetName>us-east-2</targetName>
 	</properties>
 
 	<build>
@@ -24,7 +26,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>4.12.3</version>
+				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudhub2Deployment>
@@ -42,12 +44,6 @@
 						<releaseChannel>EDGE</releaseChannel>
 					</cloudhub2Deployment>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
 			</plugin>
 		</plugins>
 	</build>
