@@ -18,7 +18,7 @@
 		<mule.maven.plugin.version>4.10.0</mule.maven.plugin.version>
 		<muleVersion>4.12.3:4e</muleVersion>
 		<javaVersion>17</javaVersion>
-		<targetName>us-east-2</targetName>
+		<targetName>Cloudhub-US-East-2</targetName>
 	</properties>
 
 	<build>
