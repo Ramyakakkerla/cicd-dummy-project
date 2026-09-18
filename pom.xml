@@ -24,7 +24,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>4.10.0</version>
+				<version>4.12.3</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudhub2Deployment>
