@@ -42,6 +42,8 @@
 						<vCores>1</vCores>
 						<javaVersion>${javaVersion}</javaVersion>
 						<releaseChannel>EDGE</releaseChannel>
+						<deploymentTimeout>600000</deploymentTimeout>
+                        <skipDeploymentVerification>true</skipDeploymentVerification>
 					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
